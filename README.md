@@ -2,6 +2,7 @@
 
 - A Flutter project build using the http library and the listViewbuilder to update,fetch and display data from an API.
 - Includes animations and Linear Gradients to update the look and feel of the app.
+- Made following this [Video Tutorial](https://www.youtube.com/watch?v=1b06d2Ld8C4)
 
 ## Resources 📏
 
