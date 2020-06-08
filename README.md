@@ -1,0 +1,3 @@
+### ~/.
+
+.vimrc, .bashrc etc 
