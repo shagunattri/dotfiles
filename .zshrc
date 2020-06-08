@@ -58,6 +58,7 @@ alias df='df -h'                                                # Human-readable
 alias free='free -m'                                            # Show sizes in MB
 alias gitu='git add . && git commit && git push'
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
+alias st='echo $?'
 
 # Theming section  
 autoload -U compinit colors zcalc
@@ -198,7 +199,7 @@ esac
 
 
 
-### POWERLINE
+
 function powerline_precmd() {
     PS1="$(powerline-shell --shell zsh $?)"
 }
