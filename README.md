@@ -1,3 +1,3 @@
 ### ~/.
 
-.vimrc, .bashrc etc 
+.vimrc, .zshrc etc 

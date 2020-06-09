@@ -19,6 +19,8 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
 
+Plug 'junegunn/goyo.vim'
+
 Plug 'gruvbox-community/gruvbox'
 Plug 'sainnhe/gruvbox-material'
 Plug 'phanviet/vim-monokai-pro'
@@ -66,5 +68,6 @@ nnoremap <Leader>- :vertical resize -5<CR>
 
 
 
-
+map <leader>f :Goyo \| set linebreak<CR>
+map <leader>o :setlocal spell! spelling=en_US<CR>
 
