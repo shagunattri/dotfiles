@@ -59,6 +59,7 @@ alias free='free -m'                                            # Show sizes in 
 alias gitu='git add . && git commit && git push'
 alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash'
 alias st='echo $?'
+alias ghdump='/home/shagun/./ghdump.sh'
 
 # Theming section  
 autoload -U compinit colors zcalc
