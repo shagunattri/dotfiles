@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/shagun/github/bashbook/PingSweep'
+let g:netrw_dirhist_6='/home/shagun/github/bashbook'
+let g:netrw_dirhist_5='/home/shagun/github'
+let g:netrw_dirhist_4='/home/shagun'
+let g:netrw_dirhist_3='/home/shagun/.vim'
+let g:netrw_dirhist_2='/home/shagun/.vim/plugged'
+let g:netrw_dirhist_1='/home/shagun/.vim/plugged/YouCompleteMe'
