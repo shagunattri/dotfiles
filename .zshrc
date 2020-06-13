@@ -61,7 +61,10 @@ alias rr='curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/mas
 alias st='echo $?'
 alias ghdump='/home/shagun/sc/./ghdump.sh'
 alias hx='/home/shagun/sc/./hx.sh'
-
+alias yeet="rm"
+alias skurt="exit"
+alias hashtag="sudo !!"
+alias fetch="clear"
 
 
 # Theming section  
