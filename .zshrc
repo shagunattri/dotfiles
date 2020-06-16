@@ -65,7 +65,7 @@ alias yeet="rm"
 alias skurt="exit"
 alias hashtag="sudo !!"
 alias fetch="clear"
-
+alias wthr="curl wttr.in"
 
 # Theming section  
 autoload -U compinit colors zcalc
