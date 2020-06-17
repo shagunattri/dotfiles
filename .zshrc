@@ -66,6 +66,7 @@ alias skurt="exit"
 alias hashtag="sudo !!"
 alias fetch="clear"
 alias wthr="curl wttr.in"
+alias srch="cd ~/github/srch/ && python srch"
 
 # Theming section  
 autoload -U compinit colors zcalc
