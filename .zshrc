@@ -68,10 +68,15 @@ alias fetch="clear"
 alias wthr="curl wttr.in"
 alias srch="cd ~/github/srch/ && python srch"
 
+# Edit line in vim with ctrl-e:
+autoload edit-command-line; zle -N edit-command-line
+bindkey '^e' edit-command-line
+
 # Theming section  
 autoload -U compinit colors zcalc
 compinit -d
 colors
+_comp_options+=(globdots)		# Include hidden files.
 
 # enable substitution for prompt
 setopt prompt_subst
@@ -230,3 +235,5 @@ pfetch
 
 ### PATH
 export PATH=$PATH:/usr/local/go/bin:/home/shagun/go/bin
+
+source /home/shagun/.config/broot/launcher/bash/br
