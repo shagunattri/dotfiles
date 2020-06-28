@@ -66,7 +66,7 @@ alias skurt="exit"
 alias hashtag="sudo !!"
 alias fetch="clear"
 alias wthr="curl wttr.in"
-alias srch="python github/srch/srch"
+alias srch="python ~/github/srch/srch"
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
