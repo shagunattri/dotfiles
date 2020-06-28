@@ -20,8 +20,8 @@ highlight ColorColumn ctermbg=0 guibg=lightgrey
 call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/goyo.vim'
-
 Plug 'gruvbox-community/gruvbox'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 Plug 'sainnhe/gruvbox-material'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'vim-airline/vim-airline'
