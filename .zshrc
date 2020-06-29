@@ -1,4 +1,4 @@
-## Options section
+### Shell# Options section
 setopt correct                                                  # Auto correct mistakes
 setopt extendedglob                                             # Extended globbing. Allows using regular expressions with *
 setopt nocaseglob                                               # Case insensitive globbing
@@ -67,6 +67,8 @@ alias hashtag="sudo !!"
 alias fetch="clear"
 alias wthr="curl wttr.in"
 alias srch="python ~/github/srch/srch"
+alias cat="bat"
+alias catp="bat -pp"
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
@@ -232,6 +234,7 @@ fi
 
 
 pfetch
+acpi -bt
 
 ### PATH
 export PATH=$PATH:/usr/local/go/bin:/home/shagun/go/bin
