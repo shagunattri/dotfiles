@@ -13,6 +13,11 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
+set showmatch
+set rnu
+set hls
+set scrolloff=5
+set ignorecase
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -38,6 +43,7 @@ Plug 'mbbill/undotree'
 Plug 'lyuts/vim-rtags'
 Plug 'git@github.com:kien/ctrlp.vim.git'
 Plug 'sheerun/vim-polyglot'
+Plug 'andymass/vim-matchup'
 
 call plug#end()
 
@@ -65,9 +71,6 @@ nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 nnoremap <Leader>ps :Rg<SPACE>
 nnoremap <Leader>+ :vertical resize +5<CR>
 nnoremap <Leader>- :vertical resize -5<CR>
-
-
-
-map <leader>f :Goyo \| set linebreak<CR>
+nnoremap <C-p> :GFiles<CR>
 map <leader>o :setlocal spell! spelling=en_US<CR>
 
