@@ -69,6 +69,10 @@ alias wthr="curl wttr.in"
 alias srch="python ~/github/srch/srch"
 alias cat="bat"
 alias catp="bat -pp"
+alias dwiki="python ~/github/Dwiki/Dwiki"
+alias ll="ls -l"
+alias la="ls -al"
+alias lalps="ls -alps"
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
