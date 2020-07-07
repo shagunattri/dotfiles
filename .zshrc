@@ -73,6 +73,7 @@ alias dwiki="python ~/github/Dwiki/Dwiki"
 alias ll="ls -l"
 alias la="ls -al"
 alias lalps="ls -alps"
+alias laht="ls -laht"
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
