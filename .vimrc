@@ -43,6 +43,7 @@ Plug 'lyuts/vim-rtags'
 Plug 'git@github.com:kien/ctrlp.vim.git'
 Plug 'sheerun/vim-polyglot'
 Plug 'andymass/vim-matchup'
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 
@@ -58,7 +59,7 @@ let g:netrw_browse_split = 2
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
 let g:ctrlp_use_caching = 0
-
+let g:user_emmet_leader_key='<C-Z>'
 
 
 nnoremap <leader>h :wincmd h<CR>
