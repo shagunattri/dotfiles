@@ -76,6 +76,7 @@ alias lalps="ls -alps"
 alias laht="ls -laht"
 alias macro="source ~/sc/macro.sh" #use polo to navigate back to the sourced repo
 alias sp="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
+alias ipaddr="curl ipinfo.io"
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
