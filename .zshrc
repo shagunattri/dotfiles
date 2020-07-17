@@ -70,13 +70,31 @@ alias srch="python ~/github/srch/srch"
 alias cat="bat"
 alias catp="bat -pp"
 alias dwiki="python ~/github/Dwiki/Dwiki"
-alias ll="ls -l"
-alias la="ls -al"
 alias lalps="ls -alps"
 alias laht="ls -laht"
 alias macro="source ~/sc/macro.sh" #use polo to navigate back to the sourced repo
 alias sp="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
 alias ipaddr="curl ipinfo.io"
+
+alias ...='cd -- ../..'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls -F --color=always'
+alias spdtst='curl -o /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip'
+alias tmux='tmux -u'
+alias tree='tree -C'
+
+
+# git aliases
+alias gb='git branch -v'
+alias gc='git commit --verbose'
+alias gd='git diff --minimal'
+alias ggp='git push'
+alias gl='git log -p --abbrev-commit --pretty=medium'
+alias glo='git log --pretty=oneline --abbrev-commit'
+alias gst='git status --short'
 
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
