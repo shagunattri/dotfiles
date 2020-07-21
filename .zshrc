@@ -76,6 +76,7 @@ alias macro="source ~/sc/macro.sh" #use polo to navigate back to the sourced rep
 alias sp="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
 alias ipaddr="curl ipinfo.io"
 
+alias ..='cd ..'
 alias ...='cd -- ../..'
 alias grep='grep --color=auto'
 alias l='ls -CF'
