@@ -51,6 +51,8 @@ ranger # file manager
 fasd #to improve navigating files
 ghidra
 figlet # ascii art
+httpie #http client on the CLI
+
 # pamac
 parrot-terminal
 pfetch
@@ -81,3 +83,5 @@ hakcheckurl # go get github.com/hakluke/hakcheckurl #url http response code
 # pip
 termdown #https://github.com/trehn/termdown #countdown timer and stopwatch
 
+# source
+mtr #https://github.com/traviscross/mtr
