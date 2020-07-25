@@ -63,7 +63,7 @@ alias ghdump='/home/shagun/sc/./ghdump.sh'
 alias hx='/home/shagun/sc/./hx.sh'
 alias yeet="rm"
 alias skurt="exit"
-alias hashtag="sudo !!"
+alias !!="sudo !!"
 alias fetch="clear"
 alias wthr="curl wttr.in"
 alias srch="python ~/github/srch/srch"
@@ -74,7 +74,9 @@ alias lalps="ls -alps"
 alias laht="ls -laht"
 alias macro="source ~/sc/macro.sh" #use polo to navigate back to the sourced repo
 alias sp="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
-alias ipaddr="curl ipinfo.io"
+alias ip="curl ipinfo.io"
+alias mtr="sudo ~/sc/mtr/./mtr"
+alias pping="~/sc/./prettyping"
 
 alias ..='cd ..'
 alias ...='cd -- ../..'
@@ -241,7 +243,7 @@ esac
 
 
 
-
+# Powerline Extension
 function powerline_precmd() {
     PS1="$(powerline-shell --shell zsh $?)"
 }
@@ -259,7 +261,7 @@ if [ "$TERM" != "linux" ]; then
     install_powerline_precmd
 fi
 
-
+# Dipslay
 pfetch
 acpi -bt
 
@@ -267,3 +269,8 @@ acpi -bt
 export PATH=$PATH:/usr/local/go/bin:/home/shagun/go/bin
 
 source /home/shagun/.config/broot/launcher/bash/br
+
+#fzf
+alias preview="fzf --preview 'bat --color \"always\" {}'"
+export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
+
