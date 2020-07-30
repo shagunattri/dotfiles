@@ -52,6 +52,7 @@ fasd #to improve navigating files
 ghidra
 figlet # ascii art
 httpie #http client on the CLI
+scapy #packet crafting, manipulating and analysis suite
 
 # pamac
 parrot-terminal
