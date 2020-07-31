@@ -53,7 +53,8 @@ ghidra
 figlet # ascii art
 httpie #http client on the CLI
 scapy #packet crafting, manipulating and analysis suite
-
+weechat #irc-client
+mariadb #mysql db 
 # pamac
 parrot-terminal
 pfetch
