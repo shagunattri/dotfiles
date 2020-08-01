@@ -99,6 +99,9 @@ alias gl='git log -p --abbrev-commit --pretty=medium'
 alias glo='git log --pretty=oneline --abbrev-commit'
 alias gst='git status --short'
 
+#web
+alias webdl="wget -r -m -nv"
+
 # Edit line in vim with ctrl-e:
 autoload edit-command-line; zle -N edit-command-line
 bindkey '^e' edit-command-line

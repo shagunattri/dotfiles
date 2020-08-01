@@ -55,6 +55,7 @@ httpie #http client on the CLI
 scapy #packet crafting, manipulating and analysis suite
 weechat #irc-client
 mariadb #mysql db 
+
 # pamac
 parrot-terminal
 pfetch
@@ -84,6 +85,7 @@ hakcheckurl # go get github.com/hakluke/hakcheckurl #url http response code
 
 # pip
 termdown #https://github.com/trehn/termdown #countdown timer and stopwatch
+bcrypt #Modern password hashing for your software and your servers
 
 # source
 mtr #https://github.com/traviscross/mtr
