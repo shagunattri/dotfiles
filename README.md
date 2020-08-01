@@ -4,4 +4,4 @@
 
 > my *nix configs
 
-![screen](img/setup.png)
+![screen](img/view.png)
