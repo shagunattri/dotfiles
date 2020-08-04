@@ -276,4 +276,4 @@ source /home/shagun/.config/broot/launcher/bash/br
 #fzf
 alias preview="fzf --preview 'bat --color \"always\" {}'"
 export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
-
+/home/shagun/github/0x00/matrix $USER
