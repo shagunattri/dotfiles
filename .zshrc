@@ -77,27 +77,17 @@ alias sp="LD_PRELOAD=/usr/local/lib/spotify-adblock.so spotify"
 alias ip="curl ipinfo.io"
 alias mtr="sudo ~/sc/mtr/./mtr"
 alias pping="~/sc/./prettyping"
-
+alias d="systemctl start docker"
 alias ..='cd ..'
 alias ...='cd -- ../..'
 alias grep='grep --color=auto'
 alias l='ls -CF'
 alias la='ls -A'
 alias ll='ls -alF'
-alias ls='ls -F --color=always'
+alias ls='ls -F'
 alias spdtst='curl -o /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip'
 alias tmux='tmux -u'
 alias tree='tree -C'
-
-
-# git aliases
-alias gb='git branch -v'
-alias gc='git commit --verbose'
-alias gd='git diff --minimal'
-alias ggp='git push'
-alias gl='git log -p --abbrev-commit --pretty=medium'
-alias glo='git log --pretty=oneline --abbrev-commit'
-alias gst='git status --short'
 
 #web
 alias webdl="wget -r -m -nv"
@@ -245,25 +235,6 @@ case $(basename "$(cat "/proc/$PPID/comm")") in
 esac
 
 
-
-# Powerline Extension
-function powerline_precmd() {
-    PS1="$(powerline-shell --shell zsh $?)"
-}
-
-function install_powerline_precmd() {
-  for s in "${precmd_functions[@]}"; do
-    if [ "$s" = "powerline_precmd" ]; then
-      return
-    fi
-  done
-  precmd_functions+=(powerline_precmd)
-}
-
-if [ "$TERM" != "linux" ]; then
-    install_powerline_precmd
-fi
-
 # Dipslay
 pfetch
 acpi -bt
@@ -273,7 +244,6 @@ export PATH=$PATH:/usr/local/go/bin:/home/shagun/go/bin
 
 source /home/shagun/.config/broot/launcher/bash/br
 
-#fzf
-alias preview="fzf --preview 'bat --color \"always\" {}'"
-export FZF_DEFAULT_OPTS="--bind='ctrl-o:execute(code {})+abort'"
 /home/shagun/github/0x00/matrix $USER
+
+ZSH_THEME=pygmalin
