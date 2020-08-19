@@ -55,6 +55,10 @@ httpie #http client on the CLI
 scapy #packet crafting, manipulating and analysis suite
 weechat #irc-client
 mariadb #mysql db 
+texlive-most #latex installation
+ufw #firewall
+fail2ban #set rules
+net-tools #network tools
 
 # pamac
 parrot-terminal
