@@ -59,6 +59,7 @@ texlive-most #latex installation
 ufw #firewall
 fail2ban #set rules
 net-tools #network tools
+hydra
 
 # pamac
 parrot-terminal
