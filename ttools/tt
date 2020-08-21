@@ -59,8 +59,8 @@ texlive-most #latex installation
 ufw #firewall
 fail2ban #set rules
 net-tools #network tools
-hydra
-
+hydra #automate brute forcing
+hashcat #hashing passwords
 # pamac
 parrot-terminal
 pfetch
@@ -95,3 +95,4 @@ bcrypt #Modern password hashing for your software and your servers
 # source
 mtr #https://github.com/traviscross/mtr
 prettyping #https://github.com/denilsonsa/prettyping
+sage #maths and crypto tool (sagemath.org)
