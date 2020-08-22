@@ -64,6 +64,8 @@ hashcat #hashing passwords
 peda # gdb assistance tool
 tshark #terminal wireshark
 gdb #GNU dbgger
+eog #image viewer
+binwalk # Firmware Analysis Tool 
 
 # pamac
 parrot-terminal
