@@ -66,6 +66,7 @@ tshark #terminal wireshark
 gdb #GNU dbgger
 eog #image viewer
 binwalk # Firmware Analysis Tool 
+exiftool #ExifTool meta information reader/writer 
 
 # pamac
 parrot-terminal
