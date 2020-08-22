@@ -61,6 +61,10 @@ fail2ban #set rules
 net-tools #network tools
 hydra #automate brute forcing
 hashcat #hashing passwords
+peda # gdb assistance tool
+tshark #terminal wireshark
+gdb #GNU dbgger
+
 # pamac
 parrot-terminal
 pfetch
