@@ -75,6 +75,7 @@ eog #image viewer
 binwalk # Firmware Analysis Tool 
 exiftool #ExifTool meta information reader/writer 
 evince #pdf reader
+dosbox #an x86/DOS emulator with sound/graphics
 
 # pamac
 parrot-terminal
@@ -84,6 +85,7 @@ checksec #find details about file binaries
 burpsuite
 socat #setup bidirectional byte streams
 hopper #diassembler
+insomnia #http and GraphQL client
 
 # yay
 cheat
