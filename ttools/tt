@@ -64,6 +64,12 @@ hashcat #hashing passwords
 peda # gdb assistance tool
 tshark #terminal wireshark
 gdb #GNU dbgger
+convert #image converter
+tesseract # OCR reader
+bsd-games #bsd-games and tools for ciphers
+eog #image viewer
+xclip # clipboard manager
+fcrackzip #cracking zip file passwords
 
 # pamac
 parrot-terminal
@@ -95,6 +101,7 @@ hakcheckurl # go get github.com/hakluke/hakcheckurl #url http response code
 # pip
 termdown #https://github.com/trehn/termdown #countdown timer and stopwatch
 bcrypt #Modern password hashing for your software and your servers
+pwntools #pwntools for CTFs
 
 # source
 mtr #https://github.com/traviscross/mtr
