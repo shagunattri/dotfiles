@@ -71,11 +71,10 @@ bsd-games #bsd-games and tools for ciphers
 eog #image viewer
 xclip # clipboard manager
 fcrackzip #cracking zip file passwords
-=======
 eog #image viewer
 binwalk # Firmware Analysis Tool 
 exiftool #ExifTool meta information reader/writer 
->>>>>>> 1cbe07b5f49e4ff144d76831f5a368bd03d87f57
+evince #pdf reader
 
 # pamac
 parrot-terminal
@@ -84,6 +83,7 @@ cheat
 checksec #find details about file binaries
 burpsuite
 socat #setup bidirectional byte streams
+hopper #diassembler
 
 # yay
 cheat
