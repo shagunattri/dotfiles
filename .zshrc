@@ -241,9 +241,5 @@ acpi -bt
 
 ### PATH
 export PATH=$PATH:/usr/local/go/bin:/home/shagun/go/bin
-
 source /home/shagun/.config/broot/launcher/bash/br
-
-/home/shagun/github/0x00/matrix $USER
-
 ZSH_THEME=pygmalin
