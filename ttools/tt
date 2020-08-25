@@ -115,3 +115,4 @@ pwntools #pwntools for CTFs
 mtr #https://github.com/traviscross/mtr
 prettyping #https://github.com/denilsonsa/prettyping
 sage #maths and crypto tool (sagemath.org)
+yara #malware analysis https://yara.readthedocs.io/en/stable/gettingstarted.html
