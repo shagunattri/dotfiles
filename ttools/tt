@@ -22,60 +22,12 @@ searchsploit #serch vulnerabilities realted to keywords
 masscan # internet scal port scanner
 Nessus # a web based vulnerability scanner
 
-
 #EXPLOITATION
 netcat # read and write data across network connections and listen for actions and changes
 
 #NODE.JS
 tldr
 writegood # linter for English
-
-#PACMAN
-cmatrix
-neofetch
-lolcat
-cowsay
-asciiquarium
-ripgrep # grep alt
-shellcheck # debugger for shellscripts
-fd # find files
-ack # grep alt
-fzf 
-broot # directory listing interactive
-nnn # navigation interactive
-tree # friendly format of ls
-dnsutils # dig,host and other n/w utils
-speedtest-cli 
-bat # alternative to cat
-ranger # file manager
-fasd #to improve navigating files
-ghidra
-figlet # ascii art
-httpie #http client on the CLI
-scapy #packet crafting, manipulating and analysis suite
-weechat #irc-client
-mariadb #mysql db 
-texlive-most #latex installation
-ufw #firewall
-fail2ban #set rules
-net-tools #network tools
-hydra #automate brute forcing
-hashcat #hashing passwords
-peda # gdb assistance tool
-tshark #terminal wireshark
-gdb #GNU dbgger
-xclip #clipboard manager
-convert #image converter
-tesseract # OCR reader
-bsd-games #bsd-games and tools for ciphers
-eog #image viewer
-xclip # clipboard manager
-fcrackzip #cracking zip file passwords
-eog #image viewer
-binwalk # Firmware Analysis Tool 
-exiftool #ExifTool meta information reader/writer 
-evince #pdf reader
-dosbox #an x86/DOS emulator with sound/graphics
 
 #PAMAC
 parrot-terminal
