@@ -1,11 +1,11 @@
-#info gathering(Reconnaissance)
+#INFORMATION GATHERING(Reconnaissance)
 theharvester # harvest mails and subdomains
 sublist3r # list subdomains [[assetfinder is better]]
 crt.sh   # website to find subdomains
 OWASP amass #information gathering
 httprobe # list for alive subdomains
 
-#finding web technologies
+#FINDING WEB TECHNOLOGIES
 builtwith
 wappalyzer # for active recon
 whatweb # cli tool [[X]]
@@ -26,11 +26,11 @@ Nessus # a web based vulnerability scanner
 #EXPLOITATION
 netcat # read and write data across network connections and listen for actions and changes
 
-#node-js
+#NODE.JS
 tldr
 writegood # linter for English
 
-#pacman
+#PACMAN
 cmatrix
 neofetch
 lolcat
@@ -64,7 +64,7 @@ hashcat #hashing passwords
 peda # gdb assistance tool
 tshark #terminal wireshark
 gdb #GNU dbgger
-<<<<<<< HEAD
+xclip #clipboard manager
 convert #image converter
 tesseract # OCR reader
 bsd-games #bsd-games and tools for ciphers
@@ -77,7 +77,7 @@ exiftool #ExifTool meta information reader/writer
 evince #pdf reader
 dosbox #an x86/DOS emulator with sound/graphics
 
-# pamac
+#PAMAC
 parrot-terminal
 pfetch
 cheat
@@ -87,18 +87,17 @@ socat #setup bidirectional byte streams
 hopper #diassembler
 insomnia #http and GraphQL client
 
-# yay
+# YAY
 cheat
 
-#utils
+#UTILS
 xargs
 vim
 nodejs
 npm
 tmux
 
-
-# go tools recon
+#GO
 gau #GO111MODULE=on go get -u -v github.com/lc/gau
 getJS #go get github.com/003random/getJS
 subjs #GO111MODULE=on go get -u -v github.com/lc/subjs
@@ -106,12 +105,13 @@ linkfinder #find endpoints in Js files #https://github.com/GerbenJavado/LinkFind
 Secretfinder(based on linkfinder) #https://github.com/m4ll0k/SecretFinder 
 hakcheckurl # go get github.com/hakluke/hakcheckurl #url http response code 
 
-# pip
+#PIP
 termdown #https://github.com/trehn/termdown #countdown timer and stopwatch
 bcrypt #Modern password hashing for your software and your servers
 pwntools #pwntools for CTFs
+ciphey #python3 -m pip install -U ciphey
 
-# source
+#SOURCE
 mtr #https://github.com/traviscross/mtr
 prettyping #https://github.com/denilsonsa/prettyping
 sage #maths and crypto tool (sagemath.org)
