@@ -1,4 +1,4 @@
-### Shell# Options section
+###Shell# Options section
 setopt correct                                                  # Auto correct mistakes
 setopt extendedglob                                             # Extended globbing. Allows using regular expressions with *
 setopt nocaseglob                                               # Case insensitive globbing
@@ -87,6 +87,7 @@ alias ll='ls -alF'
 alias ls='ls -F'
 alias spdtst='curl -o /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip'
 alias tmux='tmux -u'
+alias gg="git clone"
 alias tree='tree -C'
 
 #web
