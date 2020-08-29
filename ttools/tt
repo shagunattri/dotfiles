@@ -62,6 +62,7 @@ termdown #https://github.com/trehn/termdown #countdown timer and stopwatch
 bcrypt #Modern password hashing for your software and your servers
 pwntools #pwntools for CTFs
 ciphey #python3 -m pip install -U ciphey
+angr #binary analysis tool (python -m pip install angr) install in venv
 
 #SOURCE
 mtr #https://github.com/traviscross/mtr
