@@ -38,6 +38,8 @@ burpsuite
 socat #setup bidirectional byte streams
 hopper #diassembler
 insomnia #http and GraphQL client
+rustscan #fast nmap scanner
+obsidian-appimage # knowledge base that works on top of a local folder of plain text Markdown files
 
 # YAY
 cheat
