@@ -65,9 +65,11 @@ bcrypt #Modern password hashing for your software and your servers
 pwntools #pwntools for CTFs
 ciphey #python3 -m pip install -U ciphey
 angr #binary analysis tool (python -m pip install angr) install in venv
+boto3 #aws sdk
 
 #SOURCE
 mtr #https://github.com/traviscross/mtr
 prettyping #https://github.com/denilsonsa/prettyping
 sage #maths and crypto tool (sagemath.org)
 yara #malware analysis https://yara.readthedocs.io/en/stable/gettingstarted.html
+prowler #AWS Security tool (https://github.com/toniblyx/prowler)
