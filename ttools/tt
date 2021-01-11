@@ -68,10 +68,11 @@ pwntools #pwntools for CTFs
 ciphey #python3 -m pip install -U ciphey
 angr #binary analysis tool (python -m pip install angr) install in venv
 boto3 #aws sdk
+ote #pip3 install ote(generate random emails)
 
 #SOURCE
 mtr #https://github.com/traviscross/mtr
 prettyping #https://github.com/denilsonsa/prettyping
 sage #maths and crypto tool (sagemath.org)
-yara #malware analysis https://yara.readthedocs.io/en/stable/gettingstarted.html
+yara #malware analysis https://yara.readthedocs.io/en/stable/gettingstarted.html(sudo apt install yara)
 prowler #AWS Security tool (https://github.com/toniblyx/prowler)
